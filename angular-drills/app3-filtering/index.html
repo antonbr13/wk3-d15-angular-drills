@@ -1,6 +1,37 @@
-<html>
-	<body>
-		Something
+<html ng-app='filterApp'>
+	<body ng-controller='filterCtrl'>
+		<link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+<br>
+<br>
+			Filter name:
+			<input ng-model='search.name' type='text' name="name" value="">
+
+			Filter E-mail:
+			<input ng-model='search.email' type='text' name="name" value="">
+
+				<br>
+				<br>
+
+			<div ng-repeat='person in data | filter: search'>
+
+				<br>
+
+
+				{{person.name}} --
+				{{person.email}}
+
+			</div>
+
+
+
+
+
+
+
+
+
+
+
 				<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
