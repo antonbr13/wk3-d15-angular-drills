@@ -1,1 +1,3 @@
+basicApp.service('basicService', function() {
 
+});
