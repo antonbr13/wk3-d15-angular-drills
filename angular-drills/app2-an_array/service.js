@@ -104,9 +104,9 @@ var myData = [
 
 arrApp.service('arrayService', function() {
 
-	this.gettingArrData(function() {
+	this.gettingArrData = function() {
 		return myData;
-	});
+	};
 
 
 });
