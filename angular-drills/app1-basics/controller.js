@@ -1,3 +1,3 @@
-basicApp.controller('mainCtrl', function($scope) {
+weakApps.controller('basicCtrl', function($scope) {
 
 });

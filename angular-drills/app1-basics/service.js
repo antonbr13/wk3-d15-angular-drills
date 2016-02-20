@@ -1,3 +1,3 @@
-basicApp.service('project1Service', function() {
+weakApps.service('project1Service', function() {
 
 });
