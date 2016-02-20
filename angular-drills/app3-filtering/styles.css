@@ -1,0 +1,18 @@
+body {
+   text-align: center;
+   background: rgba(104, 100, 130, 0.83);
+   color: white;
+}
+
+.inputform {
+   margin-top: 20px;
+}
+
+p {
+   color: white;
+   display: inline-block;
+}
+
+strong {
+   color:black;
+}

@@ -1,17 +1,23 @@
 <html ng-app='filterApp'>
 	<body ng-controller='filterCtrl'>
+	<link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+
+	<div class="inputform"> <strong>	Name Search:</strong>
+
+		<input ng-model='search.name' type="text" name="name" value="" placeholder="Name">
+
+		<strong>Email Search:</strong>
+		<input ng-model='search.email' type="text" name="name" value="" placeholder="Email">
+
+	</div>
 
 
-		Name Search:
-		<input ng-model='search.name' type="text" name="name" value="">
+<br>
+<br>
+		<div ng-repeat='data in newData | filter: search 'class="pairs">
 
-		Email Search:
-		<input ng-model='search.email' type="text" name="name" value="">
-
-		<div ng-repeat='data in newData | filter: search 'class="">
-
-			{{data.name}}
-			{{data.email}}
+			<strong>{{data.name}}:</strong>
+			<p>{{data.email}}</p>
 
 
 		</div>
