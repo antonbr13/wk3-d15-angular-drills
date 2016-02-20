@@ -1,0 +1,14 @@
+body {
+   background: rgba(98, 236, 161, 0.8);
+   box-sizing: border-box;
+}
+
+.container {
+   background: darkgrey;
+   width: 30%;
+   margin: 50px auto;
+   border: 3px solid black;
+   border-radius: 10px;
+   padding-bottom: 30px;
+   text-align: center;
+}
