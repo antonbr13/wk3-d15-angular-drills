@@ -1,3 +1,3 @@
-angular.module('myApp').service('project1Service', function() {
+basicApp.service('project1Service', function() {
 
 });

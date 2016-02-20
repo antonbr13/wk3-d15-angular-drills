@@ -1,1 +1,1 @@
-angular.module('myApp', []);
+var basicApp = angular.module('myApp', []);
