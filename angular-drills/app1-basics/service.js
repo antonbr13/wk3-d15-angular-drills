@@ -1,3 +1,3 @@
-// basicApp.service('basicService', function() {
-//
-// });
+weakAppsApp.service('basicService', function() {
+
+});
