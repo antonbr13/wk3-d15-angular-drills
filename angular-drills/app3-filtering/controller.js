@@ -1,6 +1,6 @@
 ngFilter.controller('filterCtrl', function ($scope, filterService) {
 
-   $scope.newData = ;
+   $scope.newData = filterService.gettingData();
 
 
 });

@@ -2,8 +2,19 @@
 	<body ng-controller='filterCtrl'>
 
 
-		
+		Name Search:
+		<input ng-model='search' type="text" name="name" value="">
 
+		Email Search:
+		<input ng-model='search' type="text" name="name" value="">
+
+		<div ng-repeat='data in newData | filter: search 'class="">
+
+			{{data.name}}
+			{{data.email}}
+
+
+		</div>
 
 
 
