@@ -1,12 +1,14 @@
 <html ng-app='myApp'>
 	<body ng-controller='basicCtrl'>
 		<head>
-
+			<link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
 		</head>
 		<div class="container">
-
-			<input ng-model='text' type="text" name="name" value="">
-			{{text}}
+			<div class="form">
+				<h1>Your Wish is My Command!</h1>
+				<input ng-model='text' type="text" name="name" value="">
+				<h3>{{text}}</h3>
+			</div>
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
