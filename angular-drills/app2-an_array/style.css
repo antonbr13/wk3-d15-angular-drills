@@ -1,8 +1,19 @@
-.row {
-	background-color: #D3D46A;
-	width: 100%;
+.container {
+	text-align: justify;
+
+      
 }
-.personData {
-	width: 24%;	
-	display: inline-block;
+
+.pairs {
+	background: aquamarine;
+	color: white;
+	width: 30%;
+	margin: 10px auto;
+	border-radius: 10px;
+	padding: 30px 0  30px 70px  ;
+}
+
+strong {
+	color: black;
+	margin-right: 10px;
 }

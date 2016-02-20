@@ -4,10 +4,15 @@
 	</head>
 	<body ng-controller="arrayCtrl">
 
-		<div ng-repeat='info in data' class="">
+		<div ng-repeat='info in data' class="container">
 
-				{{info.name}} -->
-				{{info.email}}
+				<div class="pairs">
+
+					<p><strong>Name: </strong>  {{info.name}}</p>
+					<p><strong>Email: </strong>	{{info.email}}</p>
+
+
+				</div>
 
 		</div>
 

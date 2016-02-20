@@ -1,5 +1,5 @@
 arrApp.controller('arrayCtrl', function($scope, arrayService) {
 
-   $scope.data = gettingArrData();
+   $scope.data = arrayService.gettingArrData();
 
 });
