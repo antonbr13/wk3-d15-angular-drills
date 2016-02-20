@@ -1,1 +1,1 @@
-var basicApp = angular.module('myApp', []);
+var weakApps = angular.module('myApp', []);

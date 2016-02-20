@@ -1,3 +1,5 @@
-basicApp.controller('basicCtrl', function($scope, basicService) {
+var weakApps = angular.module('myApp', []);
+
+weakApps.controller('basicCtrl', function($scope, basicService) {
 
 });
