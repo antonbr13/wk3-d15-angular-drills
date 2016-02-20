@@ -1,4 +1,4 @@
 
-weakApps.controller('mainCtrl', function($scope, basicService) {
+weakApps.controller('basicCtrl', function($scope) {
 
 });
