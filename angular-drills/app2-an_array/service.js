@@ -1,6 +1,18 @@
+var pictures = [
+	"pictures/bungalow/bbq.jpg",
+	"pictures/bungalow/bungalow.jpg",
+	"pictures/bungalow/dinningtable.jpg",
+	"pictures/bungalow/kitchen.jpg",
+	"pictures/bungalow/livingabove.jpg"
+
+
+];
+
+
 var myData = [
-	{"name": "Aileen Jacobs", "email": "convallis.ante.lectus@euneque.co.uk", "dateEmployed": "01/01/2016", "phone": "1-862-996-4921"},
-	{"name": "Karen Delgado", "email": "dapibus@Morbiquis.ca", "dateEmployed": "10/03/2014", "phone": "403-8410"},
+	{"name": "Aileen Jacobs", "email": "convallis.ante.lectus@euneque.co.uk", "dateEmployed": "01/01/2016", "phone": "1-862-996-4921", "src": "pictures/bungalow/bbq.jpg"
+},
+	{"name": "Karen Delgado", "email": "dapibus@Morbiquis.ca", "dateEmployed": "10/03/2014", "phone": "403-8410", "src": "pictures/bungalow/bbq.jpg"},
 	{"name": "Ursula Melendez", "email": "sit.amet@nullaInteger.edu", "dateEmployed": "07/06/2016", "phone": "1-818-102-1801"},
 	{"name": "Kalia Chan", "email": "commodo.ipsum.Suspendisse@Sed.net", "dateEmployed": "12/09/2014", "phone": "535-2986"},
 	{"name": "Mollie York", "email": "nec.tempus.mauris@incursus.com", "dateEmployed": "12/14/2014", "phone": "1-847-755-1989"},
@@ -101,13 +113,31 @@ var myData = [
 	{"name": "Odysseus Nash", "email": "purus@rutrum.co.uk", "dateEmployed": "01/08/2016", "phone": "722-7908"}
 ];
 
+var pictures = [
+	"pictures/bungalow/bbq.jpg",
+	"pictures/bungalow/bungalow.jpg",
+	"pictures/bungalow/dinningtable.jpg",
+	"pictures/bungalow/kitchen.jpg",
+	"pictures/bungalow/livingabove.jpg"
+
+
+];
+
+
+angular.module('arrayApp')
+
+.service('arrayService', function() {
+
+	this.serveImg = function() {
+		return pictures;
+	};
 
 
 
+	this.getData = function() {
+		return myData;
+	};
 
 
 
-
-
-
-
+});

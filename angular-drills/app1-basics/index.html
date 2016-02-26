@@ -1,6 +1,20 @@
-<html>
-	<body>
-	
+<html ng-app="basicApp">
+<link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
+<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<body ng-controller="basicCtrl">
+
+			{{anton}}
+<br><br><br>
+			<input ng-model='text' type="text" name="name" value="">
+<br>
+<br>
+<br>
+<div class='text'>			<p>{{text}}</p>
+</div>			<br>
+			<br>
+
+
+
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>

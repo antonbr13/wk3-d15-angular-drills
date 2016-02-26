@@ -1,0 +1,19 @@
+body {
+   text-align: center;
+   background: rgb(112, 72, 89);
+   font-family: 'Ubuntu', sans-serif;
+}
+
+
+.text {
+   width: 40%;
+   margin: 0 auto;
+   line-height: 10px;
+   background: grey;
+   color:white;
+   text-overflow: clip;
+   min-height: 50px;
+   padding-top: 20px;
+   border-radius: 3px;
+
+}

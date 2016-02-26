@@ -3,7 +3,28 @@
 		<link rel="stylesheet" href="style.css"></link>
 	</head>
 	<body ng-controller="arrayController">
-	
+
+
+			<ul ng-repeat='data in arrData'>
+						<div class="block">
+
+							<li class='name'>{{data.name}}</li>
+<br>
+					<div class='extra'>
+						<li><strong>Email:</strong> {{data.email}}</li>
+						<li><strong>Date Employed:</strong> {{data.dateEmployed}}</li>
+						<li><strong>Phone:</strong> {{data.phone}}</li>
+
+					</div>
+<img class='pictures' src="{{data.src}}" alt="" />
+				</div>
+
+			</ul>
+
+
+
+
+
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
